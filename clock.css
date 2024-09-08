@@ -1,0 +1,57 @@
+body{
+    margin: 0;/*...removes the default margin  */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;/*...shift everything to the center horizontally*/
+    flex-direction: column;/*...shifting everything back to the edge PERFECTLY*/
+    align-items: center;/*aligning all items perfectly to the page middle.*/
+    height: 100vh;
+    justify-content: center;
+    background-image: url(image..clock.jpg);
+    background-size: cover;
+    overflow: hidden;
+    
+}
+
+h2{
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 18px;
+}
+
+.clock{
+    display: flex;/*...makes the styled content to align next to each other horizontally.*/
+
+}
+.clock div{
+    margin: 6px;
+    position: relative;
+}
+.clock span{
+    width: 100px;
+    height: 80px;
+    background-color: rgb(57, 64, 82);
+    opacity: .8;
+    color: rgb(229, 235, 235);
+    display: flex;/*display flex displays the WIDTH and HEIGHT here;amazing!*/
+    justify-content: center;/*moves all the digits to the center of the grey background*/
+    align-items: center;
+    font-size: 40px;
+    text-shadow: 2px 2px 4px darkolivegreen(0,0,0,0.3);
+
+}
+.clock .text{
+    height: 25px;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background-color: darkgreen;
+    opacity: .8;
+}
+.clock #ampm{
+    bottom: 0;
+    position: absolute;
+    width: 50px;
+    height: 25px;
+    font-size: 20px;
+    background-color: blue;
+}
